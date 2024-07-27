@@ -6,6 +6,9 @@ import { NotFoundPage } from './page/NotFoundPage'
 
 function App() {
  
+  const [user,setUser] = useState({
+    
+  }) 
 
   return (
     <BrowserRouter>
