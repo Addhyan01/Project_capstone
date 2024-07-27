@@ -1,0 +1,42 @@
+i am creating capstone using vite @letetst
+
+command for creating  vite @ letetst
+$ npm create vite@latest
+enter this command  they ask about project name enterproject 
+select react 
+select javascript
+
+
+
+after creating vite yo nea to go folder where file is created using cd fileName
+after install npm dependency using npm install
+
+after check everything is working or not using run command 
+npm run dev
+
+
+
+---------------------------
+
+
+remove all unnessary files and pages 
+like need to clear app page and index.css page clear
+
+--------------------------------------------
+
+
+need to use reach router dom v6
+
+-----------------------------------------
+
+need to create 
+RegisterPage.jsx  and moduler css
+RegisterPage.moduler.css
+
+
+
+
+
+
+
+
