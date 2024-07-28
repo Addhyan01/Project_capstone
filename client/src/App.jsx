@@ -1,8 +1,7 @@
 import { useState } from 'react'
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import RegisterPage from './page/RegisterPage'
-import { NotFoundPage } from './page/NotFoundPage'
+import  NotFoundPage  from './page/NotFoundPage'
 
 function App() {
  
@@ -21,12 +20,9 @@ function App() {
         <Route path='/dashboard' element={<RegisterPage />} />
         <Route path='/movies' element={<RegisterPage />} />
         <Route path='*' element={<NotFoundPage />} />
-
-
-
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
